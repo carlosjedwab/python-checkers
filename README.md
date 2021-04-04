@@ -11,13 +11,13 @@ python3 -m pip install -U pygame --user
 ## To execute the game
 #### Inside the project's folder, run the following command on a linux terminal:
 python3 main.py
-#### What should happen
+#### What should happen:
 The game screen should apear with the pieces already arranged and ready to play.
 
 ## To execute the game's tests
 #### Inside the project's folder, run the following command on a linux terminal:
 python3 tests.py
-#### What should happen
+#### What should happen:
 You should see a few automated test cases run through a screen. If everything is correct, no error messages will apear.
 
 ## How to play
