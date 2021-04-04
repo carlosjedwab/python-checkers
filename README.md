@@ -1,5 +1,5 @@
 # QultureRocksChallenge-checkers
-This is a Checkers Game implementation as the solution to the Qulture Rocks's challenge
+This is a Checkers Game implementation as the solution to the Qulture Rocks's challenge selection process
 
 ## Prerequisites
 - python
