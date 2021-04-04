@@ -5,8 +5,7 @@ This is a Checkers Game implementation as the solution to the Qulture Rocks's ch
 - python
 - pygame python library
 
-## Installing pygame
-### Run the following command on a linux terminal:
+#### To install pygame, run the following command on a linux terminal:
 python3 -m pip install -U pygame --user
 
 ## To execute the game
@@ -28,6 +27,13 @@ The game rules can be found at https://pt.wikipedia.org/wiki/Damas
 - To move a piece, you can either dragg it from its tile to the one you desire, or click on top of it and then on the desired tile.
 - Once a piece is selected, the game will light up all the legal moves you can make. If no tile did light up, then the piece has no legal moves.
 - Messages such as who has the turn and who won the game will be presented via terminal.
+
+## How it works
+There is a certain object hierarchy, since a GameWrapper object has a Checker object, which has a Board object, which has a list of Piece objects.
+Each object's function is explained with more depth in their respective file.
+
+## Extras
+No "how to make a checkers game" tutorial was used during the development of the codes, and due to time restrictions, only a few test cases were implemented.
 
 ## References
 https://www.pygame.org/wiki/GettingStarted#Pygame%20Installation
