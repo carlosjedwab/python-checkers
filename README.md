@@ -9,15 +9,15 @@ This is a Checkers Game implementation as the solution to the Qulture Rocks's ch
 python3 -m pip install -U pygame --user
 
 ## To execute the game
-### Inside the project's folder, run the following command on a linux terminal:
+#### Inside the project's folder, run the following command on a linux terminal:
 python3 main.py
-### What should happen
+#### What should happen
 The game screen should apear with the pieces already arranged and ready to play.
 
 ## To execute the game's tests
-### Inside the project's folder, run the following command on a linux terminal:
+#### Inside the project's folder, run the following command on a linux terminal:
 python3 tests.py
-### What should happen
+#### What should happen
 You should see a few automated test cases run through a screen. If everything is correct, no error messages will apear.
 
 ## How to play
@@ -37,5 +37,7 @@ No "how to make a checkers game" tutorial was used during the development of the
 
 ## References
 https://www.pygame.org/wiki/GettingStarted#Pygame%20Installation
+
 https://www.pygame.org/docs/
+
 https://www.youtube.com/watch?v=FfWpgLFMI7w
