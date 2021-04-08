@@ -3,7 +3,8 @@ This is a Checkers Game implementation as the solution to the Qulture Rocks's ch
 
 ## Prerequisites
 - python
-- pygame python library
+- numpy (python library)
+- pygame (python library)
 
 #### To install pygame, run the following command on a linux terminal:
 python3 -m pip install -U pygame --user
@@ -31,14 +32,14 @@ The game rules can be found at https://pt.wikipedia.org/wiki/Damas
 
 ## How it works
 1. The game makes use of OPP, and each class is responsable for a different set of game functions.
-2. The game make use of a game state machine, making its comprehension and expention a lot easier.
+2. The game makes use of a game state machine, making its comprehension and expantion a lot easier.
 3. The GameWrapper object has a Checker object, which has a Board object, which has a list of Piece objects.
 4. Each object's function is explained with more depth in their respective file.
 
 ## Extra notes
 1. Due to time restrictions, only a few test cases were implemented.
 2. With more time, implementations such as a "play again" button and a more complete unit test would have been implemented.
-3. No "how to make a checkers game" tutorial was used during the development of the codes.
+3. No "how to make a checkers game" tutorial were used during the development of the codes.
 
 ## References
 https://www.pygame.org/wiki/GettingStarted#Pygame%20Installation
